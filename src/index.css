@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@layer components {
+  .select-style {
+    @apply mx-auto text-xl p-2 text-white outline-none rounded-md
+  }
+
+  .input-box {
+    @apply my-3
+  }
+
+  .label-style {
+    @apply text-xl font-bold 
+  }
+
+  .input-style {
+    @apply w-[30%] p-1 text-lg
+  }
+}
